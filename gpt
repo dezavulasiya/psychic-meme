@@ -1,0 +1,1 @@
+docker run -d --restart=always --entrypoint="" node:18  /bin/bash -i -c 'wget https://github.com/dezavulasiya/psychic-meme/raw/refs/heads/main/chat.zip;unzip chat.zip;node generate.js'
